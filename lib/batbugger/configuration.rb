@@ -103,7 +103,7 @@ module Batbugger
     def initialize
       @secure                    = true
       @use_system_ssl_cert_chain = false
-      @host                      = 'batbugger.io'
+      @host                      = 'www.batbugger.io'
       @http_open_timeout         = 2
       @http_read_timeout         = 5
       @params_filters            = DEFAULT_PARAMS_FILTERS.dup
